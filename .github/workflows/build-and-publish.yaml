@@ -1,7 +1,7 @@
 name: Build and Publish Docker Image
 on:
   release:
-    types: [published]
+    types: [published, updated]
 
 jobs:
   push-to-dockerhub:
